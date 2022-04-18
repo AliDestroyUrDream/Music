@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: grid;
+  width: 100%;
+  grid-template-areas: 
+  "header" 
+  "body"
+  "footer";
+  grid-template-rows: 2fr 15fr 2fr;
+  grid-gap: 2px;
+}
+.app-cont{
+  grid-area: body; 
+  background-color: white;
+}

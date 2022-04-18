@@ -1,0 +1,48 @@
+.header{
+    position: relative;
+    margin: 0;
+    grid-area: header;
+    display: grid;
+    grid-template-areas: "logo navi";
+    grid-template-columns: 5fr 15fr;
+  }
+
+.logo1{
+    grid-area: logo;
+    background-color: black;
+    padding: 10px 0px 0px 60px;
+  
+  }
+.logo{
+    width: 200px;
+  }
+.Nav{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    font-size: 20px;
+    text-decoration:none;
+    grid-area: navi;
+    white-space: nowrap;
+    padding-left:900px ;
+  }
+  .linkBox{
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+  }
+  .rel{
+    position: relative;
+    text-decoration: none;
+    right: 250px;
+  }
+  .art{
+    position: relative;
+    text-decoration: none;
+    right: 120px;
+  }
+  .log{
+    position: relative;
+    text-decoration: none;
+    right: 10px;
+  }
